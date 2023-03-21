@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- ------------navbar------------- -->
+
+  <div class="navBar">
+    <h1 class="nav_header">Network</h1>
+  </div>
+  <!-- ------------main part------------- -->
+  <p class="feed">Your Feed</p>
+
+  <div class="main">
+    <!-- ------------left column------------- -->
+    <div class="left-Col">
+      <div class="person">
+        <img class="userPhoto" src="icons\user-circle.png" alt="pfp">
+        <a class="blue_txt" href="#">Add an Avatar</a>
+        <p class="name">James Doe</p>
+      </div>
+    </div>
+    <!-- /*---------------main container-----------*/ -->
+    <div class="right">
+      <div class="box_container">
+        <!-- /*---------------top row-----------*/ -->
+        <div class="top_row">
+          <!-- /*---------------top header-----------*/ -->
+          <h1 class="card_name">Neil M</h1>
+          <!-- /*---------------likes button-----------*/ -->
+          <p class="likes1 likes">9 Like(s)</p>
+          <button class="like_button2" onclick="addOne('likes1')">Like</button>
+        </div>
+        <!-- /*---------------card paragraph-----------*/ -->
+        <div class="bottom_txt">
+          <p class="description">I just set up this new discord bot, let me know what you all think.
+            <a href="#" class="link">link</a>
+          </p>
+        </div>
+      </div>
+      <div class="box_container">
+        <!-- /*---------------top row-----------*/ -->
+        <div class="top_row">
+          <!-- /*---------------top header-----------*/ -->
+          <h1 class="card_name">Nichole K</h1>
+          <!-- /*---------------likes button-----------*/ -->
+          <p class="likes2 likes">12Like(s)</p>
+          <button class="like_button2" onclick="addOne('likes2')">Like</button>
+        </div>
+        <!-- /*---------------card paragraph-----------*/ -->
+        <div class="bottom_txt">
+          <p class="description"> Just finished my next<a href="#" class="link">next comic</a>, check it out.
+          </p>
+        </div>
+      </div>
+      <div class="box_container">
+        <!-- /*---------------top row-----------*/ -->
+        <div class="top_row">
+          <!-- /*---------------top header-----------*/ -->
+          <h1 class="card_name">Jim R</h1>
+          <!-- /*---------------likes button-----------*/ -->
+          <p class="likes3 likes">9 Like(s)</p>
+          <button class="like_button2" onclick="addOne('likes3')">Like</button>
+        </div>
+        <!-- /*---------------card paragraph-----------*/ -->
+        <div class="bottom_txt">
+          <p class="description">I just set up this new discord bot, let me know what you all think.
+            <a href="#" class="link">link</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
